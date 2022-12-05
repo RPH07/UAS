@@ -24,15 +24,16 @@ h1{
     text-align: center;
     color: #fdfdfd;  
     text-decoration: underline;
+    font-weight: 600;
+    
 }
 
 .card{
-    
     background-color: white;
     border-bottom: 1px solid black;
     padding: 8px;
     border-radius: 12px;
-    box-shadow: 7px 4px 15px;
+    box-shadow: 5px 4px 15px;
 }
 
 img{
