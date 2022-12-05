@@ -12,21 +12,27 @@
     display: grid;
     grid-template-columns: repeat(3, 250px);
     grid-auto-rows: auto;
-    grid-gap: 1rem;
+    grid-gap: 3rem;
 }
 
 body{
-    background-color: palevioletred;
+    background-color: #FFC8DD;
     font-family: "Raleway", sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #fdfdfd;  
+    text-decoration: underline;
 }
 
 .card{
     
     background-color: white;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
     padding: 8px;
     border-radius: 12px;
-    box-shadow: 4px 4px 20px;
+    box-shadow: 7px 4px 15px;
 }
 
 img{
@@ -38,12 +44,17 @@ img{
 
 .tag {
     padding: 5px 12px;
+    margin-top: 21vh;
     border: 1px solid #e5eaed;
     border-radius: 50px;
     font-size: 12px;
     font-weight: 600;
-    color: #788697;
+    color: #F72585;
     
+}
+
+.card_details{
+    padding: 16px 8px 8px 8px;
 }
 
 p{
@@ -54,5 +65,28 @@ p{
 
 a {
     text-decoration: none;
-    color: palevioletred;
+    color: #FF5D8F;
 }
+
+button{
+    border: none;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+.tombol{
+    color: #F72585;
+}
+
+/* Responsive style */
+@media screen and (max-width: 780px){ 
+    #container {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    
+}
+
